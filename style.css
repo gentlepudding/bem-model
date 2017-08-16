@@ -1,7 +1,6 @@
 body {
     margin: 0;
     padding: 0;
-    width: 100%;
     background: #f3f3f3;
 }
 
@@ -57,7 +56,7 @@ body {
     margin: 20px auto 0;
 }
 
-.button_theme_normal {
+.button_theme_secondary {
     background: darkgray; 
 }
  .button {
@@ -104,7 +103,8 @@ body {
     transform: rotate(30deg);  
 }
 
-.container__circle_p75::before, .container__circle_p25::before {  
+.container__circle_p75::before, 
+.container__circle_p25::before {  
     content: "";  
     display: block;
     height: 100%;  
@@ -126,7 +126,11 @@ body {
     margin: 0;
 }
 
-.container__circle_result {
+.container__circle_p0 {
+    color: currentColor;
+}
+
+.container__result {
     display: block;
     font-size: 20px;
     line-height: 4em;
@@ -137,10 +141,6 @@ body {
     z-index: 2;
     color: #DB7093;
     width: 80px;
-}
-
-.container__circle_result_p0 {
-    color: currentColor;
 }
 
 .container__circle_index {
@@ -164,7 +164,6 @@ body {
     margin: 8px 0;
 }
 
-.button_theme_look {
+.button_theme_primary {
     background: #DB7093;
 }
-
