@@ -59,8 +59,9 @@ body {
 .button_theme_secondary {
     background: darkgray; 
 }
- .button {
-    padding: 5px 20px;
+
+.button {
+    padding: 4px 20px 6px;
     border-radius: 3px; 
     border: none;
     color: #fff;
